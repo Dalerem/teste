@@ -40,5 +40,8 @@ class Calc:
         print("Multiplicacao:", resp.mult())
         print("Divisao:", resp.div())
 
-resp = Calc(12, 4)
+x = float(input("Digite um numero: "))
+y = float(input("Digite outro numero: "))
+
+resp = Calc(x, y)
 resp.mostra()
