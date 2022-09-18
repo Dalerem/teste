@@ -1,4 +1,4 @@
-class main:
+class Calc:
 
     def __init__(self, a, b):
         self.a = a
@@ -17,4 +17,10 @@ class main:
         return self.a / self.b
 
     def mostra(self):
-        pass
+        print("Soma:", resp.soma())
+        print("Subtracao:", resp.sub())
+        print("Multiplicacao:", resp.mult())
+        print("Divisao:", resp.div())
+
+resp = Calc(12, 4)
+resp.mostra()
