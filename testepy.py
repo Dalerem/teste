@@ -1,5 +1,8 @@
 class main:
 
+    def __init__(self):
+        pass
+
     def soma(self):
         pass
 
