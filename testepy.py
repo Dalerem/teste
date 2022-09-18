@@ -1,4 +1,6 @@
 """
+    Calculos de operadores matemáticos
+
     Author: Dalerem Teixeira
     E-Mail: dalerem2022@gmail.com
     Rede social: https://www.linkedin.com/in/d%C3%A1lerem-teixeira-949a48236/
