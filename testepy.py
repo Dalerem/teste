@@ -23,18 +23,43 @@ class Calc:
         self.b = b
 
     def soma(self):
+        """
+            Função soma
+
+        :return: soma dos valores a e b
+        """
         return self.a + self.b
 
     def sub(self):
+        """
+            Função subtração
+
+        :return: subtração dos valores a e b
+        """
         return self.a - self.b
 
     def mult(self):
+        """
+            Função multiplicação
+
+        :return: multiplicação dos valores a e b
+        """
         return self.a * self.b
 
     def div(self):
+        """
+            Função divisão
+
+        :return: divisão dos valores a e b
+        """
         return self.a / self.b
 
     def mostra(self):
+        """
+            Função que motra as operações
+
+        :return: operações soma, subtração, multiplicação e divisão
+        """
         print("Soma:", resp.soma())
         print("Subtracao:", resp.sub())
         print("Multiplicacao:", resp.mult())
