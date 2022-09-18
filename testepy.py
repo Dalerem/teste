@@ -9,8 +9,16 @@ __email__ = "dalerem2022@gmail.com"
 __redesocial__ = "https://www.linkedin.com/in/d%C3%A1lerem-teixeira-949a48236/"
 
 class Calc:
-
+    """
+        Classe para fazer calculo
+    """
     def __init__(self, a, b):
+        """
+            Construtor para os calculos
+
+        :param a: valor a
+        :param b: valor b
+        """
         self.a = a
         self.b = b
 
