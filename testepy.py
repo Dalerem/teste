@@ -1,19 +1,20 @@
 class main:
 
-    def __init__(self):
-        pass
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
 
     def soma(self):
-        pass
+        return self.a + self.b
 
     def sub(self):
-        pass
+        return self.a - self.b
 
     def mult(self):
-        pass
+        return self.a * self.b
 
     def div(self):
-        pass
+        return self.a / self.b
 
     def mostra(self):
         pass
